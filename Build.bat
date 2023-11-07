@@ -1,6 +1,5 @@
 echo off
 REM create a new folder
-if exist
 mkdir build 
 REM create an empty file
 type nul>build\car.txt 
