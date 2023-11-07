@@ -1,6 +1,6 @@
 echo off
 REM create a new folder
-mkdir build 
+IF EXIST build\ (echo "folder exist") ELSE (mkdir build)
 REM create an empty file
 type nul>build\car.txt 
 REM put chassis inside the file
